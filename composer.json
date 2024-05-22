@@ -1,0 +1,28 @@
+{
+  "name": "Eroslanov/Lab5Composer",
+  "type": "project",
+  "autoload": {
+    "psr-4": {
+      "Egor\\Lab5Composer\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "Eroslanov ivan",
+      "email": "egortumanov812@gmail.com"
+    }
+  ],
+  "repositories": [
+    {
+      "type": "vcs",
+      "url": "https://github.com/Eroslanov/Lab5Composer"
+    }
+  ],
+  "require": {
+    "romurs/lab5-composer": "dev-main"
+  },
+  "require-dev": {
+    "phpstan/phpstan": "^1.11",
+    "squizlabs/php_codesniffer": "3.*"
+  }
+}
